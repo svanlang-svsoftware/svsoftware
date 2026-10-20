@@ -1,111 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="nl-BE">
 <head>
-    <meta charset="UTF-8">
-    <title>App Support</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            background-color: #f5f5f7;
-            color: #1d1d1f;
-            margin: 0;
-            padding: 40px 20px;
-        }
-        .container {
-            max-width: 80%;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 32px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 16px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        a {
-            color: #007aff;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-		.storelink{
-			margin: 0 auto;
-			width: 120px;
-			display: block;
-		}
-        .footer {
-            margin-top: 32px;
-            font-size: 13px;
-            color: #6e6e73;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Svanlang Software | Handige iPhone-apps voor elke dag</title>
+  <meta name="description" content="Ontdek de iPhone-apps van Svanlang Software: bewaar digitale klantenkaarten, beheer terugkerende taken en houd bakbeurten van je frituurolie bij.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#f5f7fb">
+  <link rel="canonical" href="https://svanlang-svsoftware.github.io/svsoftware/">
+  <link rel="alternate" hreflang="nl-BE" href="https://svanlang-svsoftware.github.io/svsoftware/">
+  <link rel="alternate" hreflang="fr-BE" href="https://svanlang-svsoftware.github.io/svsoftware/?lang=fr">
+  <link rel="alternate" hreflang="en" href="https://svanlang-svsoftware.github.io/svsoftware/?lang=en">
+  <link rel="alternate" hreflang="x-default" href="https://svanlang-svsoftware.github.io/svsoftware/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:title" content="Svanlang Software | Handige iPhone-apps voor elke dag">
+  <meta property="og:description" content="Praktische apps voor klantenkaarten, terugkerende taken en frituurolie.">
+  <meta property="og:url" content="https://svanlang-svsoftware.github.io/svsoftware/">
+  <style>
+    :root { color-scheme:light; --ink:#172033; --muted:#5b6578; --line:#e3e8f0; --paper:#fff; --bg:#f5f7fb; --blue:#2457d6; --blue-dark:#1944b4; --mint:#e7f8ef; --yellow:#f7df01; --radius:22px; --shadow:0 14px 40px rgba(24,39,75,.07); }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+    a{color:var(--blue)} a:focus-visible,button:focus-visible{outline:3px solid #91aaff;outline-offset:4px;border-radius:8px}
+    .wrap{width:min(1080px,calc(100% - 40px));margin-inline:auto} header{padding:24px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;letter-spacing:-.03em}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--ink);color:white;font-size:14px}
+    .nav-right{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.nav-links{display:flex;gap:18px;flex-wrap:wrap}.nav-links a{color:var(--muted);font-size:.94rem;text-decoration:none}.nav-links a:hover{color:var(--blue)}
+    .languages{display:flex;align-items:center;gap:5px;padding:4px;border:1px solid var(--line);border-radius:999px;background:white}.languages button{border:0;background:transparent;color:var(--muted);padding:6px 9px;border-radius:999px;font:inherit;font-size:.83rem;font-weight:750;cursor:pointer}.languages button[aria-pressed="true"]{background:var(--ink);color:white}
+    .hero{padding:68px 0 54px}.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:white;color:var(--muted);font-size:.88rem;font-weight:650}.eyebrow-dot{width:8px;height:8px;background:#28a66a;border-radius:50%}
+    h1{max-width:800px;margin:20px 0 18px;font-size:clamp(2.35rem,6vw,4.6rem);line-height:1.06;letter-spacing:-.065em}.hero p{max-width:680px;margin:0;color:var(--muted);font-size:clamp(1.05rem,2vw,1.22rem)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 17px;border:1px solid transparent;border-radius:12px;background:var(--blue);color:white;font-weight:750;text-decoration:none;transition:transform .15s,background .15s}.button:hover{background:var(--blue-dark);transform:translateY(-1px)}.button.secondary{border-color:var(--line);background:white;color:var(--ink)}.button.secondary:hover{background:#f0f3f9}
+    .section{padding:48px 0}.section-heading{max-width:680px;margin-bottom:24px}h2{margin:0 0 8px;font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;letter-spacing:-.045em}.section-heading p{margin:0;color:var(--muted)}
+    .apps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.app-card{display:flex;flex-direction:column;min-width:0;padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow)}.app-icon{display:grid;place-items:center;width:58px;height:58px;margin-bottom:20px;border-radius:18px;font-size:1.8rem}.app-icon img{max-width:100%;border-radius:18px}.icon-cards{background:var(--yellow)}.icon-tasks{background:var(--mint)}.app-card h3{margin:0 0 8px;font-size:1.35rem;letter-spacing:-.03em}.app-card p{margin:0 0 16px;color:var(--muted)}.app-card ul{padding-left:19px;margin:0 0 24px;color:var(--muted)}.app-card li{margin:5px 0}.app-card .button{margin-top:auto;width:100%}.note{margin-top:18px;color:var(--muted);font-size:.9rem}
+    .why-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.why{padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.72)}.why strong{display:block;margin-bottom:6px}.why p{margin:0;color:var(--muted);font-size:.96rem}.faq{border-top:1px solid var(--line)}details{padding:18px 0;border-bottom:1px solid var(--line)}summary{cursor:pointer;font-weight:750}details p{max-width:780px;margin:10px 0 0;color:var(--muted)}
+    .contact{padding:28px;border-radius:var(--radius);background:#172033;color:white}.contact h2{font-size:1.8rem}.contact p{color:#d2d8e5}.contact a{color:white}footer{padding:30px 0 40px;color:var(--muted);font-size:.9rem}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:800px){.apps,.why-grid{grid-template-columns:1fr}.app-card{padding:22px}.hero{padding-top:44px}.nav{align-items:flex-start;flex-direction:column}.nav-right{width:100%;justify-content:space-between}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1080px)}.nav-right{align-items:flex-start;flex-direction:column;gap:14px}.hero-actions .button{width:100%}.section{padding:34px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Svanlang Software","url":"https://svanlang-svsoftware.github.io/svsoftware/","email":"svanlang.software@icloud.com"}
+  </script>
 </head>
 <body>
-    <div class="container">
-		<table width="100%" cellpadding="5" cellspacing="5">
-			<tr>
-				<td width="25%"><img src="./myTaskList.png" title="My fixed tasks" style="max-width:100%; min-width:100%"></td>
-				<td>
-					<h2>My Tasks</h2><br/><br>
-					"My Tasks" is not just a to-do or reminder app — it's your regular to-do list for everything that keeps coming back.<br/><br/> Instead of scheduling, checking off and making tasks disappear, your tasks will always stay in your list here. This way you build a regular routine for things that need to be done regularly. For each task, you can see when it was last performed and how often you have already done it. <br/><br/>Easily set reminders per task. Via the badge indicator, you can immediately see whether a task needs to be done again or is about to reach its next moment. <br/><br/>No time for once? Skip a task — you'll just be reminded later. Nothing gets "gone", everything remains part of your fixed overview. <br/><br/>Divide your tasks into categories, so that you quickly get a clear list for each topic. This way everything remains structured and you always know what will come back. <br/><br/>"My Tasks" is made for maintenance, routines, and recurring responsibilities — not for throwaway tasks.
-					<br/><br/>
-					<a class="storelink" href="https://apps.apple.com/be/app/mijn-vaste-taken/id6758676517"><img src="./download.svg" title="Download My Tasks"></a>
-				</td>
-			</tr>
-			<tr>
-				<td width="25%"><img src="./fryoilapp.png" title="Fry Oil App"  style="max-width:100%; min-width:100%"></td>
-				<td>
-					<h2>Fryer Oil Counter</h2><br/><br>Do you sometimes wonder if it's not time to change your cooking oil? How many times have you baked fries... And how many times can you continue safely? With the "Frying Oil Counter" you can easily keep track of how many frying sessions you have already done per fryer. You set the maximum number of baking sessions in advance and the app clearly shows how many are left. This way you always know when it's time for fresh oil. 
-					<br/><br/>
-					In addition, you can set reminders on the days that you normally fry fries. This way you will automatically receive a notification and you will never forget to check your oil again. 
-					<br/><br/>
-					<ul>
-						<li>Overview per fryer</li>
-						<li>Number of baking sessions can be set yourself</li>
-						<li>Smart reminders</li> 
-						<li>Always fresh and safe fries</li>
-					</ul>
-					<br/><br/>
-					<a class="storelink" href="https://apps.apple.com/be/app/frituur-olie-teller/id6758676306"><img src="./download.svg" title="Download Fry Oil Counter"></a>
-				</td>
-			</tr>
-
-			<tr>
-				<td width="25%"><img src="./mycards.png" title="My Cards"  style="max-width:100%; min-width:100%"></td>
-				<td>
-					<h2>Mijn kaarten</h2><br/><br>
-					<b>Alle klantenkaarten, altijd bij de hand.</b><br/><br/>
-Geen dikke portefeuille meer vol plastic kaartjes. Scan simpelweg de QR-code of barcode van je klantenkaart en sla hem op in één overzichtelijke app. Je kaarten worden weergegeven in heldere, herkenbare blokjes — zodat je op het moment dat het telt razendsnel de juiste kaart vindt.
-Of je nu aan de kassa staat of onderweg bent: met de handige widget heb je je favoriete kaarten direct op je beginscherm. En via de Apple Watch-app scan je je klantenkaart zelfs zonder je telefoon tevoorschijn te halen — gewoon je pols omdraaien en klaar.
-<br/><br/><b>Slim, snel en altijd bij je.</b>
-
-					<br/><br/>
-					<!--<a class="storelink" href="https://apps.apple.com/be/app/frituur-olie-teller/id6758676306"><img src="./download.svg" title="Download Fry Oil Counter"></a>-->
-				</td>
-			</tr>
-		</table>        
-	
-		<h1>App Support</h1>
-	        <p>
-	            Need help or have questions about this app?<br>
-	            You can contact us via email:
-	        </p>
-	        <p>
-	            <a href="mailto:svanlang.software@icloud.com">svanlang.software@icloud.com</a>
-	        </p>
-	
-	        <div class="footer">
-	            © 2026 Steven Vanlangenaeker
-	        </div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="./" aria-label="Svanlang Software — home"><span class="brand-mark" aria-hidden="true">SV</span><span>Svanlang Software</span></a>
+      <div class="nav-right">
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#apps" data-i18n="navApps">Onze apps</a><a href="#over" data-i18n="navAbout">Over Svanlang Software</a><a href="#faq" data-i18n="navFaq">Veelgestelde vragen</a><a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="languages" aria-label="Choose language">
+          <button type="button" data-lang="nl" aria-pressed="true">NL</button><button type="button" data-lang="fr" aria-pressed="false">FR</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
     </div>
+  </header>
+  <main id="top">
+    <section class="hero"><div class="wrap">
+      <span class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span><span data-i18n="eyebrow">Praktische apps voor iPhone</span></span>
+      <h1 data-i18n="heroTitle">Kleine apps.<br>Handig in het dagelijks leven.</h1>
+      <p data-i18n="heroText">Svanlang Software maakt eenvoudige apps die terugkerende bezigheden overzichtelijker maken. Bewaar je klantenkaarten, houd vaste taken bij en volg je frituurolie op één handige plek.</p>
+      <div class="hero-actions"><a class="button" href="#apps"><span data-i18n="explore">Ontdek de apps</span>&nbsp; ↓</a><a class="button secondary" href="mailto:svanlang.software@icloud.com" data-i18n="askQuestion">Stel een vraag</a></div>
+    </div></section>
+    <section class="section" id="apps"><div class="wrap">
+      <div class="section-heading"><h2 data-i18n="appsTitle">Ontdek onze apps</h2><p data-i18n="appsIntro">Kies de app die bij jouw dagelijkse behoefte past. Open de App Store-pagina voor meer informatie en om de app te installeren.</p></div>
+      <div class="apps">
+           <article class="app-card"><div class="app-icon icon-cards" aria-hidden="true"><img src="./mycards.png" title="Mijn Klantenkaarten"></div><h3 data-i18n="cardsTitle">Mijn Klantenkaarten</h3><p data-i18n="cardsText">Bewaar je digitale klantenkaarten overzichtelijk op je iPhone en vind de juiste kaart snel terug wanneer je die nodig hebt.</p><ul><li data-i18n="cards1">Klantenkaarten op één plek</li><li data-i18n="cards2">Barcodes en QR-codes bij de hand</li><li data-i18n="cards3">Widgets en Apple Watch-ondersteuning</li></ul><a class="button" href="https://apps.apple.com/be/app/mijn-klantenkaarten/id6773395630?l=nl" data-store="cards" target="_blank" rel="noopener noreferrer" data-i18n="appStore">Bekijk in de App Store ↗</a></article>
+        <article class="app-card"><div class="app-icon icon-tasks" aria-hidden="true"><img src="./myTaskList.png" title="My recurring tasks"></div><h3 data-i18n="tasksTitle">Mijn Vaste Taken</h3><p data-i18n="tasksText">Houd terugkerende taken en routines bij zonder dat je overzicht verdwijnt zodra je een taak afvinkt.</p><ul><li data-i18n="tasks1">Volg vaste taken en routines</li><li data-i18n="tasks2">Bekijk wanneer je iets voor het laatst deed</li><li data-i18n="tasks3">Gebruik categorieën en herinneringen</li></ul><a class="button" href="https://apps.apple.com/be/app/mijn-vaste-taken/id6758676517?l=nl" data-store="tasks" target="_blank" rel="noopener noreferrer" data-i18n="appStore">Bekijk in de App Store ↗</a></article>
+        <article class="app-card"><div class="app-icon icon-oil" aria-hidden="true"><img src="./fryoilapp.png" title="Fry Oil App"></div><h3 data-i18n="oilTitle">FrituurOlie teller</h3><p data-i18n="oilText">Houd het aantal bakbeurten per friteuse bij en stel een eigen maximum en herinneringen in.</p><ul><li data-i18n="oil1">Overzicht per friteuse</li><li data-i18n="oil2">Stel zelf een maximum in</li><li data-i18n="oil3">Herinneringen om je olie te controleren</li></ul><a class="button" href="https://apps.apple.com/be/app/frituurolie-teller/id6758676306?l=nl" data-store="oil" target="_blank" rel="noopener noreferrer" data-i18n="appStore">Bekijk in de App Store ↗</a></article>
+    </div><p class="note" data-i18n="appNote">Functies kunnen verschillen per appversie. Bekijk de App Store-pagina voor de actuele informatie.</p>
+    </div></section>
+    <section class="section" id="over"><div class="wrap"><div class="section-heading"><h2 data-i18n="aboutTitle">Gemaakt om dingen eenvoudiger te maken</h2><p data-i18n="aboutText">Geen overbodige complexiteit: praktische hulpmiddelen voor kleine taken die regelmatig terugkomen.</p></div>
+      <div class="why-grid"><div class="why"><strong data-i18n="why1Title">Helder en praktisch</strong><p data-i18n="why1Text">De belangrijkste informatie en functies staan centraal, zodat je snel vindt wat je zoekt.</p></div><div class="why"><strong data-i18n="why2Title">Voor dagelijks gebruik</strong><p data-i18n="why2Text">Van je klantenkaart bij de kassa tot taken die je iedere week opnieuw uitvoert.</p></div><div class="why"><strong data-i18n="why3Title">Feedback is welkom</strong><p data-i18n="why3Text">Heb je een vraag, idee of probleem? Neem rechtstreeks contact op met Svanlang Software.</p></div></div>
+    </div></section>
+    <section class="section" id="faq"><div class="wrap"><div class="section-heading"><h2 data-i18n="faqTitle">Veelgestelde vragen</h2><p data-i18n="faqIntro">Meer weten over de apps of ondersteuning nodig?</p></div><div class="faq">
+      <details><summary data-i18n="faq1Q">Waar kan ik de apps downloaden?</summary><p data-i18n="faq1A">Open de App Store-link bij de app die je wilt gebruiken. Daar vind je de actuele compatibiliteit, prijs en informatie over de nieuwste versie.</p></details>
+      <details><summary data-i18n="faq2Q">Welke app past bij mij?</summary><p data-i18n="faq2A">Gebruik Mijn Klantenkaarten om klantenkaarten digitaal te bewaren, Mijn Vaste Taken voor terugkerende taken en routines, of FrituurOlie teller om bakbeurten per friteuse bij te houden.</p></details>
+      <details><summary data-i18n="faq3Q">Hoe neem ik contact op voor ondersteuning?</summary><p data-i18n="faq3A">Mail naar svanlang.software@icloud.com en vermeld de naam van de app, je toestel en een korte beschrijving van je vraag.</p></details>
+    </div></div></section>
+    <section class="section" id="contact"><div class="wrap"><div class="contact"><h2 data-i18n="contactTitle">Hulp nodig of een idee?</h2><p data-i18n="contactText">Neem contact op voor vragen, feedback of ondersteuning bij een van de apps.</p><a class="button secondary" href="mailto:svanlang.software@icloud.com" data-i18n="contactButton">Mail Svanlang Software ↗</a></div></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© 2026 Svanlang Software</span><span data-i18n="footerText">Praktische apps voor dagelijks gebruik</span></div></footer>
+<script>
+const translations = {
+  nl: {
+    title:"Svanlang Software | Handige iPhone-apps voor elke dag", description:"Ontdek de iPhone-apps van Svanlang Software: bewaar digitale klantenkaarten, beheer terugkerende taken en houd bakbeurten van je frituurolie bij.",
+    navApps:"Onze apps",navAbout:"Over Svanlang Software",navFaq:"Veelgestelde vragen",navContact:"Contact",eyebrow:"Praktische apps voor iPhone",heroTitle:"Kleine apps.<br>Handig in het dagelijks leven.",heroText:"Svanlang Software maakt eenvoudige apps die terugkerende bezigheden overzichtelijker maken. Bewaar je klantenkaarten, houd vaste taken bij en volg je frituurolie op één handige plek.",explore:"Ontdek de apps",askQuestion:"Stel een vraag",appsTitle:"Ontdek onze apps",appsIntro:"Kies de app die bij jouw dagelijkse behoefte past. Open de App Store-pagina voor meer informatie en om de app te installeren.",
+    cardsTitle:"Mijn Klantenkaarten",cardsText:"Bewaar je digitale klantenkaarten overzichtelijk op je iPhone en vind de juiste kaart snel terug wanneer je die nodig hebt.",cards1:"Klantenkaarten op één plek",cards2:"Barcodes en QR-codes bij de hand",cards3:"Widgets en Apple Watch-ondersteuning",
+    tasksTitle:"Mijn Vaste Taken",tasksText:"Houd terugkerende taken en routines bij zonder dat je overzicht verdwijnt zodra je een taak afvinkt.",tasks1:"Volg vaste taken en routines",tasks2:"Bekijk wanneer je iets voor het laatst deed",tasks3:"Gebruik categorieën en herinneringen",
+    oilTitle:"FrituurOlie teller",oilText:"Houd het aantal bakbeurten per friteuse bij en stel een eigen maximum en herinneringen in.",oil1:"Overzicht per friteuse",oil2:"Stel zelf een maximum in",oil3:"Herinneringen om je olie te controleren",appStore:"Bekijk in de App Store ↗",appNote:"Functies kunnen verschillen per appversie. Bekijk de App Store-pagina voor de actuele informatie.",
+    aboutTitle:"Gemaakt om dingen eenvoudiger te maken",aboutText:"Geen overbodige complexiteit: praktische hulpmiddelen voor kleine taken die regelmatig terugkomen.",why1Title:"Helder en praktisch",why1Text:"De belangrijkste informatie en functies staan centraal, zodat je snel vindt wat je zoekt.",why2Title:"Voor dagelijks gebruik",why2Text:"Van je klantenkaart bij de kassa tot taken die je iedere week opnieuw uitvoert.",why3Title:"Feedback is welkom",why3Text:"Heb je een vraag, idee of probleem? Neem rechtstreeks contact op met Svanlang Software.",
+    faqTitle:"Veelgestelde vragen",faqIntro:"Meer weten over de apps of ondersteuning nodig?",faq1Q:"Waar kan ik de apps downloaden?",faq1A:"Open de App Store-link bij de app die je wilt gebruiken. Daar vind je de actuele compatibiliteit, prijs en informatie over de nieuwste versie.",faq2Q:"Welke app past bij mij?",faq2A:"Gebruik Mijn Klantenkaarten om klantenkaarten digitaal te bewaren, Mijn Vaste Taken voor terugkerende taken en routines, of FrituurOlie teller om bakbeurten per friteuse bij te houden.",faq3Q:"Hoe neem ik contact op voor ondersteuning?",faq3A:"Mail naar svanlang.software@icloud.com en vermeld de naam van de app, je toestel en een korte beschrijving van je vraag.",contactTitle:"Hulp nodig of een idee?",contactText:"Neem contact op voor vragen, feedback of ondersteuning bij een van de apps.",contactButton:"Mail Svanlang Software ↗",footerText:"Praktische apps voor dagelijks gebruik"
+  },
+  fr: {
+    title:"Svanlang Software | Des apps iPhone pratiques au quotidien", description:"Découvrez les apps iPhone de Svanlang Software : cartes de fidélité numériques, tâches récurrentes et suivi des utilisations de l’huile de friture.",
+    navApps:"Nos apps",navAbout:"À propos",navFaq:"Questions fréquentes",navContact:"Contact",eyebrow:"Des apps pratiques pour iPhone",heroTitle:"De petites apps.<br>Un quotidien plus simple.",heroText:"Svanlang Software crée des apps simples pour mieux organiser les petites choses du quotidien. Gardez vos cartes de fidélité à portée de main, suivez vos tâches récurrentes et comptez les utilisations de votre huile de friture.",explore:"Découvrir les apps",askQuestion:"Poser une question",appsTitle:"Découvrez nos apps",appsIntro:"Choisissez l’app qui répond à votre besoin. Consultez sa page sur l’App Store pour en savoir plus et la télécharger.",
+    cardsTitle:"Mes Cartes Fidélité",cardsText:"Conservez vos cartes de fidélité numériques sur votre iPhone et retrouvez rapidement celle dont vous avez besoin.",cards1:"Toutes vos cartes au même endroit",cards2:"Codes-barres et QR codes à portée de main",cards3:"Widgets et compatibilité Apple Watch",
+    tasksTitle:"Mes tâches fixes",tasksText:"Suivez vos tâches récurrentes et vos routines sans perdre votre liste lorsque vous cochez une tâche.",tasks1:"Suivez vos tâches et routines",tasks2:"Consultez la dernière réalisation d’une tâche",tasks3:"Utilisez des catégories et des rappels",
+    oilTitle:"Frit’Checkr",oilText:"Comptez les utilisations de chaque friteuse et définissez votre propre limite ainsi que des rappels.",oil1:"Un suivi par friteuse",oil2:"Définissez votre limite",oil3:"Des rappels pour contrôler votre huile",appStore:"Voir sur l’App Store ↗",appNote:"Les fonctionnalités peuvent varier selon la version de l’app. Consultez sa page App Store pour les informations à jour.",
+    aboutTitle:"Des outils pensés pour simplifier le quotidien",aboutText:"Pas de complexité inutile : des outils pratiques pour les petites tâches qui reviennent régulièrement.",why1Title:"Clair et pratique",why1Text:"Les informations et fonctions essentielles sont mises en avant pour vous aider à trouver rapidement ce que vous cherchez.",why2Title:"Pour tous les jours",why2Text:"De votre carte de fidélité en caisse aux tâches que vous effectuez chaque semaine.",why3Title:"Vos retours sont les bienvenus",why3Text:"Une question, une idée ou un problème ? Contactez directement Svanlang Software.",
+    faqTitle:"Questions fréquentes",faqIntro:"Vous souhaitez en savoir plus ou obtenir de l’aide ?",faq1Q:"Où télécharger les apps ?",faq1A:"Ouvrez le lien App Store de l’app qui vous intéresse. Vous y trouverez les informations actuelles sur la compatibilité, le prix et la dernière version.",faq2Q:"Quelle app choisir ?",faq2A:"Utilisez Mes Cartes Fidélité pour conserver vos cartes de fidélité, Mes tâches fixes pour les tâches récurrentes et les routines, ou Frit’Checkr teller pour compter les utilisations de chaque friteuse.",faq3Q:"Comment contacter l’assistance ?",faq3A:"Écrivez à svanlang.software@icloud.com en indiquant le nom de l’app, votre appareil et une brève description de votre question.",contactTitle:"Une question ou une idée ?",contactText:"Contactez-nous pour toute question, suggestion ou demande d’assistance concernant nos apps.",contactButton:"Écrire à Svanlang Software ↗",footerText:"Des apps pratiques au quotidien"
+  },
+  en: {
+    title:"Svanlang Software | Useful iPhone apps for everyday life", description:"Discover Svanlang Software iPhone apps for digital loyalty cards, recurring tasks and tracking deep-fryer oil use.",
+    navApps:"Our apps",navAbout:"About",navFaq:"FAQ",navContact:"Contact",eyebrow:"Practical apps for iPhone",heroTitle:"Small apps.<br>Made for everyday life.",heroText:"Svanlang Software creates simple apps to make recurring everyday tasks easier to manage. Keep loyalty cards handy, track regular tasks and count deep-fryer oil uses in one convenient place.",explore:"Explore the apps",askQuestion:"Ask a question",appsTitle:"Discover our apps",appsIntro:"Choose the app that fits your needs. Visit its App Store page to learn more and download it.",
+    cardsTitle:"Mijn Klantenkaarten",cardsText:"Keep your digital loyalty cards organised on your iPhone and quickly find the card you need.",cards1:"Keep loyalty cards in one place",cards2:"Barcodes and QR codes close at hand",cards3:"Widgets and Apple Watch support",
+    tasksTitle:"My recurring tasks",tasksText:"Track recurring tasks and routines without losing sight of them when you mark a task as complete.",tasks1:"Track regular tasks and routines",tasks2:"See when you last completed a task",tasks3:"Use categories and reminders",
+    oilTitle:"FryerOil Counter",oilText:"Count uses for each deep fryer and set your own limit and reminders.",oil1:"Track each deep fryer separately",oil2:"Set your own usage limit",oil3:"Reminders to check your oil",appStore:"View on the App Store ↗",appNote:"Features may vary by app version. Check the App Store page for the latest information.",
+    aboutTitle:"Designed to make things simpler",aboutText:"No unnecessary complexity: practical tools for small tasks that come around regularly.",why1Title:"Clear and practical",why1Text:"Key information and features are easy to find, helping you get to what you need quickly.",why2Title:"Made for everyday use",why2Text:"From your loyalty card at checkout to tasks you repeat every week.",why3Title:"Feedback is welcome",why3Text:"Have a question, idea or issue? Get in touch with Svanlang Software directly.",
+    faqTitle:"Frequently asked questions",faqIntro:"Want to learn more about the apps or need support?",faq1Q:"Where can I download the apps?",faq1A:"Open the App Store link for the app you want. Its page contains current compatibility, pricing and release information.",faq2Q:"Which app is right for me?",faq2A:"Use Mijn Klantenkaarten to store loyalty cards digitally ( Mijn klantenkaarten is not yet available in English), My recurring tasks for recurring tasks and routines, or FryerOil Counter to count uses for each deep fryer.",faq3Q:"How can I contact support?",faq3A:"Email svanlang.software@icloud.com and include the app name, your device and a short description of your question.",contactTitle:"Need help or have an idea?",contactText:"Get in touch with questions, feedback or support requests about any of the apps.",contactButton:"Email Svanlang Software ↗",footerText:"Practical apps for everyday life"
+  }
+};
+const storeLinks = {
+  cards: {nl:"https://apps.apple.com/be/app/mijn-klantenkaarten/id6773395630?l=nl",fr:"https://apps.apple.com/be/app/mijn-klantenkaarten/id6773395630?l=fr",en:"https://apps.apple.com/be/app/mijn-klantenkaarten/id6773395630?l=en"},
+  tasks: {nl:"https://apps.apple.com/be/app/mijn-vaste-taken/id6758676517?l=nl",fr:"https://apps.apple.com/be/app/mijn-vaste-taken/id6758676517?l=fr",en:"https://apps.apple.com/be/app/mijn-vaste-taken/id6758676517?l=en"},
+  oil: {nl:"https://apps.apple.com/be/app/frituurolie-teller/id6758676306?l=nl",fr:"https://apps.apple.com/be/app/frituurolie-teller/id6758676306?l=fr",en:"https://apps.apple.com/be/app/frituurolie-teller/id6758676306?l=en"}
+};
+function setLanguage(lang, updateUrl=true) {
+  if (!translations[lang]) lang = "nl";
+  const t = translations[lang];
+  document.documentElement.lang = lang === "nl" ? "nl-BE" : lang === "fr" ? "fr-BE" : "en";
+  document.title = t.title;
+  const desc = document.querySelector('meta[name="description"]');
+  if (desc) desc.content = t.description;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const value = t[el.dataset.i18n];
+    if (value !== undefined) el.innerHTML = value;
+  });
+  document.querySelectorAll("[data-lang]").forEach(btn => btn.setAttribute("aria-pressed", String(btn.dataset.lang === lang)));
+  document.querySelectorAll("[data-store]").forEach(a => a.href = storeLinks[a.dataset.store][lang]);
+  if (updateUrl) {
+    const url = new URL(window.location.href);
+    if (lang === "nl") url.searchParams.delete("lang"); else url.searchParams.set("lang", lang);
+    history.replaceState({}, "", url);
+  }
+}
+document.querySelectorAll("[data-lang]").forEach(btn => btn.addEventListener("click", () => setLanguage(btn.dataset.lang)));
+const initialLang = new URLSearchParams(window.location.search).get("lang");
+setLanguage(initialLang === "fr" || initialLang === "en" ? initialLang : "nl", false);
+</script>
 </body>
 </html>
-
